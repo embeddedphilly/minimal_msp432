@@ -7,7 +7,7 @@
 int main(void)
 {
 	
-
+    WDTCTL = 
 	int i;
 
 	while (1)
