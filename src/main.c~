@@ -1,0 +1,25 @@
+/* DriverLib Includes */
+#include "msp432p401r.h"
+
+/* Standard Includes */
+#include <stdint.h>
+#include <stdbool.h>
+
+int main(void)
+{
+	/* Stop Watchdog */
+	int ii;
+	int i;
+
+	while (1)
+	{
+		for (ii = 0; ii < 5000; ii++)
+		{
+			i = ii;
+		}
+	}
+
+	return 0;
+
+}
+
